@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+
+  http2mqtt:
+    image: chrisgunawardena/fake0auth
+    ports:
+      - "3000:3000"
